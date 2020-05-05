@@ -1,0 +1,48 @@
+<!DOCTYPE html5>
+<html lang=“ja”>
+
+  <head>
+    <meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+    <title>Triangular Pyramid</title>
+	<style>...</style>
+	 <link rel="stylesheet" href="pyramid.css"　type="text/css" media="all">
+	 <link rel="shortcut icon" href="image/nazobu.jpg" >
+	 
+	<!-- jQuery本体の読み込み -->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+
+<!-- ＃リンクのスムーズスクロール -->
+<script>
+$(function(){
+   // #で始まるリンクをクリックしたら実行されます
+   $('a[href^=#]').click(function() {
+      // スクロールの速度
+      var speed = 400; // ミリ秒で記述
+      var href= $(this).attr("href");
+      var target = $(href == "#" || href == "" ? 'html' : href);
+      var position = target.offset().top;
+      $('body,html').animate({scrollTop:position}, speed, 'swing');
+      return false;
+   });
+});
+</script>
+
+</head>
+
+<body>
+<div class="main">
+<p>　</p>
+<p>　</p>
+<p>　</p>
+<p class="image"><img src="image/hint2.jpeg" class="pyramid"></p>
+<p>　</p>
+<p>　</p>
+<p class="bun"><a href="nazoc.html" class="nazo"><span class="buttonb">次の謎へ</span></a></p>
+<p>　</p>
+<p>　</p>
+	
+	
+
+</body>
+</html>
