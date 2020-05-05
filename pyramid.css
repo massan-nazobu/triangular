@@ -1,0 +1,104 @@
+body {
+background-image: linear-gradient(-70deg, #ffffff 50%, #000000 50%);
+color: #ffffff;
+}
+
+div.main {
+background: #000000;
+}
+
+p.image {
+text-align: center;
+}
+
+p.title {
+margin-bottom: -40px;
+margin-top: -20px;
+text-align: center;
+}
+
+img.title {
+width: 90%;
+border: 2px solid #000000;
+}
+
+p.bun {
+text-align: center;
+}
+
+span.button {
+background: #F8F8FF;
+color: #000000;
+font-size: 20px;
+}
+
+span.button:hover {
+background: #00BFFF;
+color: #ffffff;
+font-size: 20px;
+transition: background 0.2s, color 0.2s;
+}
+
+span.buttona {
+background: #F8F8FF;
+color: #000000;
+font-size: 20px;
+}
+
+span.buttona:hover {
+background: #FA8072;
+color: #ffffff;
+font-size: 20px;
+transition: background 0.2s, color 0.2s;
+}
+
+span.buttonb {
+background: #F8F8FF;
+color: #000000;
+font-size: 20px;
+}
+
+span.buttonb:hover {
+background: #ADFF2F;
+color: #ffffff;
+font-size: 20px;
+transition: background 0.2s, color 0.2s;
+}
+
+span.buttonc {
+background: #F8F8FF;
+color: #000000;
+font-size: 20px;
+}
+
+span.buttonc:hover {
+background: #000000;
+color: #ffffff;
+font-size: 20px;
+border: #ffffff solid 2px;
+transition: background 0.2s, color 0.2s, border 0.2s;
+}
+
+img.pyramid {
+width: 80%;
+}
+
+a.nazo {
+text-decoration: none;
+}
+
+span.nazoa {
+color: #00BFFF;
+}
+
+span.nazob {
+color: #FA8072;
+}
+
+span.nazoc {
+color: #ADFF2F;
+}
+
+div.button {
+text-align: center;
+}
